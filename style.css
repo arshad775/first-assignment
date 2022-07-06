@@ -61,18 +61,22 @@ body {
 }
 
 .select-item {
-    padding: 40px 50px;
+    padding: 40px 20px;
     background-color: rgb(236, 230, 230);
     margin-right: 5px;
     font-weight: 700;
     font-size: 30px;
     border: 1px solid grey;
     border-radius: 5px;
+    text-decoration: none;
+    color: grey;
+    width: 100%;
 }
 
 .select-item:hover {
     border: 3px solid #f44336;
     background: #bf736e;
+    cursor: pointer;
 }
 
 .input {
